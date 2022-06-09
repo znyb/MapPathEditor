@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e3d77d2d9508746b75519f24d97b44, type: 3}
+  m_Name: main
+  m_EditorClassIdentifier: 
+  PathMat: {fileID: 2100000, guid: c4607dede1fe9ae45b2d0ed7c94a1626, type: 2}
+  LeftStartPoint: {x: 9.626651, y: 0, z: 15.375421}
+  RightStartPoint: {x: 10.900205, y: 0, z: 14.8}
+  PathSegments:
+  - Step: 10
+    LeftPoint: {x: 5.80682, y: 0, z: 9.48}
+    RightPoint: {x: 6.9675064, y: 0, z: 10}
+    LeftControlPoints:
+    - {x: 4.6389604, y: 0, z: 12.388445}
+    RightControlPoints:
+    - {x: 6.171403, y: 0, z: 11.95}
+  - Step: 10
+    LeftPoint: {x: 12, y: 0, z: 5}
+    RightPoint: {x: 12.2, y: 0, z: 6}
+    LeftControlPoints:
+    - {x: 7.69, y: 0, z: 5.97}
+    RightControlPoints:
+    - {x: 8.68, y: 0, z: 6.7}
+  - Step: 10
+    LeftPoint: {x: 20, y: 0, z: 11}
+    RightPoint: {x: 20, y: 0, z: 12}
+    LeftControlPoints:
+    - {x: 16.032497, y: 0, z: 5.87}
+    - {x: 17.181988, y: 0, z: 10.606888}
+    RightControlPoints:
+    - {x: 15.139387, y: 0, z: 6.640871}
+    - {x: 16.45089, y: 0, z: 12.2}
+  - Step: 10
+    LeftPoint: {x: 29.111286, y: 0, z: 8}
+    RightPoint: {x: 30.726425, y: 0, z: 7.9375563}
+    LeftControlPoints:
+    - {x: 25.758705, y: 0, z: 11.909032}
+    RightControlPoints:
+    - {x: 25.849737, y: 0, z: 13.061119}
+  - Step: 1
+    LeftPoint: {x: 31.55863, y: 0, z: 4.5784435}
+    RightPoint: {x: 33.39456, y: 0, z: 4.516}
+    LeftControlPoints: []
+    RightControlPoints: []
